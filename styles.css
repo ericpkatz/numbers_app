@@ -6,3 +6,8 @@ form {
   border: solid 1px dodgerBlue;
   padding: 1rem;
 }
+
+.odd {
+  font-size: 1.5rem;
+  color: dodgerBlue;
+}

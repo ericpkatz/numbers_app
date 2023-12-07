@@ -13,7 +13,7 @@ form.addEventListener('submit', function(ev){
 function render(){
   let html = numbers.map(function(num){
     return `
-      <li>${num}</li>
+      <li class='${ num % 2 === 1 ? 'odd': ''}'>${num}</li>
     `;
   });
   html = html.join('');
